@@ -1,0 +1,61 @@
+body{
+ 
+  
+  font-family: 'Cairo', sans-serif;
+  cursor: url("Images/beans-cursor-1.png") , auto;
+    
+}
+body::before{
+  display: block;
+  content: '';
+  height: 60px;
+}
+.section-light {
+  background-color: #f5f0e1; /* Creamy beige */
+  color: #212529;
+}
+.btn-primary, .btn-buy-now {
+  background-color: #6f4e37; /* Coffee brown */
+  border: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.btn-primary:hover, .btn-buy-now:hover {
+  background-color: #a05a2c; /* Richer brown */
+}
+@media(min-width: 768px){
+    .phone-input{
+        width: 50%;
+    }
+}
+
+.button-color{
+    color: #a05a2c;
+}
+.card-style{
+    background-color: #343a40;
+    border: 1px solid #5c3a21;
+    
+}
+.brand-name{
+  color:#6f4e37;
+}
+.rotate-question {
+    transform: rotate(180deg);
+  }
+  .dir-right{
+    direction: rtl;
+  }
+::selection {
+  background-color: #c19a6b; 
+  color: #fffbe6;
+}
+.btn-dark {
+  transition: 0.3s ease-in-out;
+}
+
+.btn-dark:hover {
+  background-color: #c19a6b; 
+  color: #fff; 
+  border-color: #c19a6b;
+}
